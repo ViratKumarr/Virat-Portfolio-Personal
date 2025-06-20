@@ -1,58 +1,122 @@
-# Virat Portfolio
+<div align="center">
+  <br />
+  <h3 align="center">Virat Portfolio Website</h3>
+  <div align="center">
+    A beautiful, fast, and responsive portfolio built using Next.js 14, TypeScript, Tailwind CSS, and Framer Motion.
+  </div>
+</div>
 
-A modern, responsive personal portfolio website built with Next.js, TypeScript, and Tailwind CSS.
+---
 
-## Features
+## 👨‍💻 Developed by  
+**Virat Kumar**
 
-- 🚀 Built with Next.js 14
-- 💎 Styled with Tailwind CSS
-- 📱 Fully Responsive
-- 🌓 Dark Mode Support
-- ⚡ Fast Performance
-- 🎨 Modern Design
+![Screenshot](https://github.com/ViratKumarr/Virat-Portfolio-Personal/blob/main/public/preview.png)
 
-## Getting Started
+---
 
-1. Clone the repository:
+## 📋 <a name="table">Table of Contents</a>
+
+1. 🤖 [Introduction](#introduction)
+2. ⚙️ [Tech Stack](#tech-stack)
+3. 🔋 [Features](#features)
+4. 🤸 [Quick Start](#quick-start)
+5. 🧠 [Project Structure](#project-structure)
+6. 🔗 [Social Links](#social-links)
+7. 🚀 [More](#more)
+
+---
+
+## <a name="introduction">🤖 Introduction</a>
+
+This is my personal portfolio site created using modern technologies. It showcases my technical skills, personal projects, certifications, and contact details in an elegant and animated way. The project is deployed on **Vercel** and optimized for performance and responsiveness.
+
+---
+
+## <a name="tech-stack">⚙️ Tech Stack</a>
+
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+- React Icons
+
+**Language Usage Stats:**
+
+| Language     | Usage  |
+|--------------|--------|
+| TypeScript   | 94.2%  |
+| CSS (Tailwind)| 4.7%  |
+| JavaScript   | 1.1%   |
+
+---
+
+## <a name="features">🔋 Features</a>
+
+👉 **Fully Responsive Design**: Seamless user experience on all devices.  
+👉 **Dark Mode Toggle**: Built-in dark/light theme support.  
+👉 **Framer Motion Animations**: Smooth animations for a professional feel.  
+👉 **SEO Optimized**: Clean structure and meta support.  
+👉 **Next.js App Router**: Leverages latest Next.js routing and features.  
+👉 **Clean and Modular Codebase**: Easy to customize and extend.
+
+---
+
+## <a name="quick-start">🤸 Quick Start</a>
+
+**Prerequisites:**
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+
+### Clone the Repo
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/ViratKumarr/Virat-Portfolio-Personal.git
+cd Virat-Portfolio-Personal
 ```
 
-2. Install dependencies:
+### Install Dependencies
 ```bash
 npm install
 ```
 
-3. Run the development server:
+### Start the Development Server
 ```bash
 npm run dev
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-## Project Structure
+---
+
+## <a name="project-structure">🧠 Project Structure</a>
 
 ```
 src/
 ├── app/
-│   ├── layout.tsx    # Root layout component
-│   ├── page.tsx      # Home page component
-│   └── globals.css   # Global styles
-├── components/       # Reusable components
-└── styles/          # Additional styles
+│   ├── layout.tsx       # Root layout component
+│   ├── page.tsx         # Main homepage
+│   └── globals.css      # Global styles
+├── components/          # UI and section components
+├── styles/              # Additional custom styles
+├── public/              # Static assets
 ```
 
-## Customization
+---
 
-1. Update the content in `src/app/page.tsx` with your personal information
-2. Modify the color scheme in `tailwind.config.js`
-3. Add your social media links
-4. Customize the design to match your personal brand
+## <a name="social-links">🔗 Social Links</a>
 
-## Technologies Used
+- [LinkedIn](https://www.linkedin.com/in/virat-kumar-b0b57024a/)
+- [GitHub](https://github.com/ViratKumarr)
+- [Twitter](https://x.com/___ViRaT____)
+- [Instagram](https://www.instagram.com/___virat_chaudhary___)
 
-- [Next.js](https://nextjs.org/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [React Icons](https://react-icons.github.io/react-icons/)
-- [Framer Motion](https://www.framer.com/motion/) 
+---
+
+## <a name="more">🚀 More</a>
+
+Feel free to explore, fork, and build your own version. This portfolio is open-source and evolving with new sections and updates.
+
+---
+
+Made with ❤️ by **Virat Kumar**
