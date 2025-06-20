@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-rgb: 0, 0, 0;
+  }
+
+  body {
+    color: rgb(var(--foreground-rgb));
+    background: rgb(var(--background-rgb));
+  }
+
+  html {
+    @apply bg-background text-text scroll-smooth;
+  }
+  
+  body {
+    @apply min-h-screen bg-background text-text antialiased;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply text-text font-bold;
+  }
+
+  p {
+    @apply text-text-secondary;
+  }
+
+  a {
+    @apply text-text hover:text-text-secondary transition-colors;
+  }
+
+  button {
+    @apply bg-background-secondary text-text border border-border 
+           hover:border-border-hover transition-colors;
+  }
+}
+
+@keyframes wiggle {
+  0% { transform: rotate(0deg) scale(1); }
+  25% { transform: rotate(-12deg) scale(1.1); }
+  50% { transform: rotate(12deg) scale(1.1); }
+  75% { transform: rotate(-8deg) scale(1.05); }
+  100% { transform: rotate(0deg) scale(1); }
+}
+
+.platform-icon {
+  display: inline-block;
+  transition: all 0.3s ease;
+}
+
+.platform-card:hover .platform-icon {
+  animation: wiggle 0.75s ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.platform-card {
+  position: relative;
+  transform: translateY(0) scale(1);
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  will-change: transform;
+}
+
+.platform-card:hover {
+  transform: translateY(-15px) scale(1.02);
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+.platform-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: 0.75rem;
+  background: radial-gradient(
+    800px circle at var(--mouse-x, 0) var(--mouse-y, 0),
+    rgba(255, 255, 255, 0.06),
+    transparent 40%
+  );
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none;
+}
+
+.platform-card:hover::after {
+  opacity: 1;
+}
+
+@layer components {
+  .hero-heading {
+    @apply text-4xl md:text-6xl font-bold text-center text-text;
+  }
+  
+  .section-heading {
+    @apply text-3xl md:text-4xl font-semibold mb-6 text-text;
+  }
+  
+  .container-custom {
+    @apply container mx-auto px-4 py-8 md:px-6;
+  }
+
+  .card {
+    @apply bg-background-secondary border border-border rounded-lg 
+           hover:border-border-hover transition-all;
+  }
+
+  .input {
+    @apply bg-background-secondary text-text border border-border rounded-lg
+           focus:border-border-hover focus:outline-none transition-colors
+           px-4 py-2;
+  }
+
+  .button {
+    @apply px-6 py-2 rounded-lg bg-background-secondary text-text
+           border border-border hover:border-border-hover
+           transition-all duration-300 ease-in-out;
+  }
+} 
