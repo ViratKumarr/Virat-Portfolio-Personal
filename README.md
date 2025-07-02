@@ -61,7 +61,7 @@ This is my personal portfolio site created using modern technologies. It showcas
 👉 **Clean and Modular Codebase**: Easy to customize and extend.
 
 ---
-![Screenshot](https://github.com/ViratKumarr/Virat-Portfolio-Personal/blob/4a3756b782c6c0c9498ada24edb0d97704a5b445/Screenshot%202025-07-02%20122451.png)
+![Screenshot](https://github.com/ViratKumarr/Virat-Portfolio-Personal/blob/10f2f3c7b96d26fb1b7f4a8e46434f16ad515769/Screenshot%202025-07-02%20122559.png)
 ## <a name="quick-start">🤸 Quick Start</a>
 
 **Prerequisites:**
@@ -69,7 +69,7 @@ This is my personal portfolio site created using modern technologies. It showcas
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/)
 
-![Screenshot](https://github.com/ViratKumarr/Virat-Portfolio-Personal/blob/10f2f3c7b96d26fb1b7f4a8e46434f16ad515769/Screenshot%202025-07-02%20122559.png)
+
 
 ### Clone the Repo
 ```bash
