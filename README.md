@@ -11,7 +11,7 @@
 ## 👨‍💻 Developed by  
 **Virat Kumar**
 
-![Screenshot](https://github.com/ViratKumarr/Virat-Portfolio-Personal/blob/main/public/preview.png)
+![Screenshot](https://github.com/ViratKumarr/Virat-Portfolio-Personal/blob/4a3756b782c6c0c9498ada24edb0d97704a5b445/Screenshot%202025-07-02%20122451.png)
 
 ---
 
