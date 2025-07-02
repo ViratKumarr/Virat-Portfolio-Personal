@@ -26,7 +26,7 @@
 7. 🚀 [More](#more)
 
 ---
-
+![Screenshot](https://github.com/ViratKumarr/Virat-Portfolio-Personal/blob/10f2f3c7b96d26fb1b7f4a8e46434f16ad515769/Screenshot%202025-07-02%20122510.png)
 ## <a name="introduction">🤖 Introduction</a>
 
 This is my personal portfolio site created using modern technologies. It showcases my technical skills, personal projects, certifications, and contact details in an elegant and animated way. The project is deployed on **Vercel** and optimized for performance and responsiveness.
@@ -40,7 +40,7 @@ This is my personal portfolio site created using modern technologies. It showcas
 - Tailwind CSS
 - Framer Motion
 - React Icons
-
+![Screenshot](https://github.com/ViratKumarr/Virat-Portfolio-Personal/blob/10f2f3c7b96d26fb1b7f4a8e46434f16ad515769/Screenshot%202025-07-02%20122543.png)
 **Language Usage Stats:**
 
 | Language     | Usage  |
@@ -61,13 +61,15 @@ This is my personal portfolio site created using modern technologies. It showcas
 👉 **Clean and Modular Codebase**: Easy to customize and extend.
 
 ---
-
+![Screenshot](https://github.com/ViratKumarr/Virat-Portfolio-Personal/blob/4a3756b782c6c0c9498ada24edb0d97704a5b445/Screenshot%202025-07-02%20122451.png)
 ## <a name="quick-start">🤸 Quick Start</a>
 
 **Prerequisites:**
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/)
 - [npm](https://www.npmjs.com/)
+
+![Screenshot](https://github.com/ViratKumarr/Virat-Portfolio-Personal/blob/10f2f3c7b96d26fb1b7f4a8e46434f16ad515769/Screenshot%202025-07-02%20122559.png)
 
 ### Clone the Repo
 ```bash
