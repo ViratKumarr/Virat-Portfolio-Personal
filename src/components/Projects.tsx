@@ -15,6 +15,15 @@ interface Project {
 }
 
 const projects: Project[] = [
+
+  {
+    title: "Personal Portfolio Website",
+    description: "A modern, interactive portfolio website built with Next.js and Tailwind CSS. Features include dark/light mode, 3D globe visualization, smooth animations, and responsive design. Perfect showcase for skills, projects, and professional journey.",
+    technologies: ["Next.js", "Three.js", "Tailwind CSS", "Framer Motion", "EmailJS"],
+    githubUrl: "https://github.com/ViratKumarr/Virat-Portfolio-Personal",
+    liveUrl: "https://virat-portfolio-personal.vercel.app/",
+    imageUrl: "/projects/portfolio_home.png"
+  },
   {
     title: "3D iPhone 15 Pro Website",
     description: "Built a responsive 3D iPhone 15 Pro clone with scroll animations, dynamic lighting, and realistic models using Three.js and GSAP.",
@@ -23,14 +32,7 @@ const projects: Project[] = [
     liveUrl: "https://iphone-website-178s5gpga-virat-kumars-projects-240764d6.vercel.app/",
     imageUrl: "/projects/iphone_home.png"
   },
-  {
-    title: "Personal Portfolio Website",
-    description: "A modern, interactive portfolio website built with Next.js and Tailwind CSS. Features include dark/light mode, 3D globe visualization, smooth animations, and responsive design. Perfect showcase for skills, projects, and professional journey.",
-    technologies: ["Next.js", "Three.js", "Tailwind CSS", "Framer Motion", "EmailJS"],
-    githubUrl: "https://github.com/ViratKumarr/Iphone_Website",
-    liveUrl: "https://iphone-website-178s5gpga-virat-kumars-projects-240764d6.vercel.app/",
-    imageUrl: "/projects/portfolio_home.png"
-  },
+  
   
 ];
 

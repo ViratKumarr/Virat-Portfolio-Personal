@@ -84,7 +84,7 @@ const Hero = () => {
 
         {/* Resume Download Button */}
         <a
-          href="/path-to-your-resume.pdf"
+          href="/Resume_Virat_July.pdf"
           download
           className={`inline-flex items-center justify-center gap-2 px-8 py-3 rounded-full 
             ${isDark ? 'bg-white text-black' : 'bg-black text-white'}
