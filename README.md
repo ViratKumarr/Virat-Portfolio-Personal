@@ -1,3 +1,10 @@
+<div align="center">
+  <br />
+  <h3 align="center">Virat Portfolio Website</h3>
+  <div align="center">
+    A beautiful, fast, and responsive portfolio built using Next.js 14, TypeScript, Tailwind CSS, and Framer Motion.
+  </div>
+</div>
 
 ---
 
