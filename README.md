@@ -1,3 +1,7 @@
+<p align="left">
+  © Virat Kumar 2025 | Built with ❤️
+</p>
+
 <div align="center">
   <br />
   <h3 align="center">Virat Portfolio Website</h3>
