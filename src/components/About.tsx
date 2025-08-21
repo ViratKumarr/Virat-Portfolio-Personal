@@ -60,7 +60,7 @@ const About = () => {
             {/* Download Resume Button */}
             <div className="pt-4">
               <a
-                href="/Virat_Resume_August.pdf"
+                href="/projects/Virat_Resume_August.pdf"
                 download
                 className={`inline-flex items-center justify-center gap-2 px-6 py-2.5 rounded-full 
                   ${isDark ? 'bg-white text-black' : 'bg-black text-white'}
