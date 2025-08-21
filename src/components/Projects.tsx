@@ -32,6 +32,22 @@ const projects: Project[] = [
     liveUrl: "https://iphone-website-178s5gpga-virat-kumars-projects-240764d6.vercel.app/",
     imageUrl: "/projects/iphone_home.png"
   },
+  {
+    title: "SkillSync - Training Tracker",
+    description: "Developed a full-stack training management system for capability management teams to efficiently track, manage, and evaluate employee training progress. Implemented role-based authentication, training scheduling, performance tracking, and secure API endpoints with JWT. Integrated both H2 (for development) and MySQL (for production) databases for flexible deployment.",
+    technologies: ["Java", "Spring Boot", "Spring Security", "JWT", "H2 Database", "MySQL", "HTML", "CSS", "JavaScript", "Thymeleaf"],
+    githubUrl: "https://github.com/ViratKumarr/Training_Tracker_SkillSync_Sasken",
+    liveUrl: "https://training-tracker-skill-sync-sasken.vercel.app/", 
+    imageUrl: "/projects/skillsync_training_tracker.png"
+  },
+  {
+    title: "Scribble.io – Multiplayer Whiteboard",
+    description: "Created a real-time collaborative whiteboard app—think Excalidraw meets Google Meet—enabling multi-user drawing, chat, shape tools, and room-based collaboration with user authentication and live canvas persistence.",
+    technologies: ["React.js (TypeScript)", "HTML5 Canvas API", "Styled Components", "React Router", "Socket.IO (Client & Server)", "Node.js", "Express.js", "MongoDB (Mongoose)", "JWT"],
+    githubUrl: "https://github.com/ViratKumarr/Scribble_Whiteboard_Multiplayer_App",
+    liveUrl: "", // add if deployed
+    imageUrl: "/projects/scribble.png"
+  },
   
   
 ];
